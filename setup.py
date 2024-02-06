@@ -20,12 +20,12 @@ def get_requirements(file_path:str)->List[str]:
 
 
 setup(
-    name='mlproject',
-    version='0.0.1',
-    author='Deep Korat',
-    author_email='deepkorat13@gmail.com',
-    packages=find_packages(),
-    # install_requires = ['pandas', 'numpy', 'seaborn']
-    install_requires = get_requirements('requirements.txt') 
+name='mlproject',
+version='0.0.1',
+author='Deep Korat',
+author_email='deepkorat13@gmail.com',
+packages=find_packages(),
+# install_requires = ['pandas', 'numpy', 'seaborn']
+install_requires = get_requirements('requirements.txt') 
 
 )

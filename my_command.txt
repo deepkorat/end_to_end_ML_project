@@ -1,0 +1,26 @@
+## AGENDA ##
+
+1 - Set up the Github {Repository}
+     (a) New Environment
+     (b) setup.python
+     (c) requirements.txt
+
+2 - Src folder and build the package
+
+
+
+
+
+
+
+
+
+
+
+### Required Commands for my remembering
+
+conda create -p venv python==3.8 -y
+conda activate venv/
+
+git remote -v
+python.exe -m pip install --upgrade pip
