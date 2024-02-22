@@ -1,9 +1,11 @@
 from pathlib import Path
 import sys
-path_root = Path(__file__).parents[2]
+path_root = Path(__file__).parents[1]
 sys.path.append(str(path_root))
+print(sys.path)
 
-from logger import logging
+# import logger.logging
+from src.logger import logging
 
 def error_message_details(error, error_detail:sys): 
      # exc_tb contains all information of error - in which line, what error occuring.    
