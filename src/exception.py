@@ -1,5 +1,9 @@
+from pathlib import Path
 import sys
-from src.logger import logging
+path_root = Path(__file__).parents[2]
+sys.path.append(str(path_root))
+
+from logger import logging
 
 def error_message_details(error, error_detail:sys): 
      # exc_tb contains all information of error - in which line, what error occuring.    
